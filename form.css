@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color:burlywood;
+    font-family: arial
+  }
+  textarea {
+    text-align: justify;
+    width: 190px;
+    height: 100px;
+  }
+  .validation {                                         
+    text-align: left; 
+    font-family: Arial,; 
+    font-size:14px; 
+}   
+div {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 100px solid black; 
+    float: left; 
+    align-content: center; 
+    align-items: center; 
+} 
+   
+form {                                         
+    margin: 0 auto; 
+    width: 600px; 

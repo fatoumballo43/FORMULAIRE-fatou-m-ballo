@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DM m'ballo</title>
+    <script type="text/javascript" src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body><h1 > FORMULAIRE D'INSCRIPTION</h1>           
+    <form name="Formu" action="form.html" onsubmit="return validation()" method="post">  
+          
+        <p> Nom et Prénom : <input type="text" name="nomprénom"></p><br>        
+        <p> Adresse : <input type="text" name="adresse"></p><br> 
+        <p> Adresse mail : <input type="text" name="email"></p><br> 
+        <p> Mot de passe : <input type="text" name="motdepasse"></p><br> 
+        <p> Telephone : <input type="text" name="telephone"></p><br>   
+            
+        <p>Tranche d'âge :    
+            <select type="text" value="" name="age"> 
+                <option>Moins de 18 ans</option> 
+                <option>Entre 18 ans et 24 ans</option> 
+                <option>Entre 25 ans et 40 ans</option> 
+                <option>Entre 40 ans et 60 ans</option> 
+                <option>Plus de 60 ans</option> 
+            </select></p><br><br> 
+        <p>Message<br><br><textarea id="textbox" onkeyup="compteur(this.value)"></textarea><br>
+            <span id=chaine></span></p> 
+        <p><input type="submit" value="send" name="Submit">      
+            <input type="reset" value="Reset" name="Reset">   
+        </p>       
+</form>
+</body>
+</html>
